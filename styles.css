@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+/* 得点板のスタイル */
+#scoreboard {
+  border: 5px solid #333;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* チーム1とチーム2のスタイル */
+#team1, #team2 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 20px;
+  color: #e74c3c;
+}
+
+/* 得点のスタイル */
+#score1, #score2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+  color: #3498db;
+}
+
+/* ボタンのスタイル */
+button {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px 30px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+@media (min-width: 768px) {
+  /* 768px以上の幅の場合のスタイル */
+  #scoreboard {
+    width: 60%;
+  }
+}
